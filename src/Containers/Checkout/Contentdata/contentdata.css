@@ -1,0 +1,23 @@
+.contentdata
+{
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 25px 10px rgb(202, 201, 199);
+    border: 1px solid rgb(250, 135, 3);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Input
+{
+    display: block;
+    margin: 20px auto;
+}
+
+@media (min-width : 600px)
+{
+    .contentdata{
+        width: 500px;
+    }
+}
